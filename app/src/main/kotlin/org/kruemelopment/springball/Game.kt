@@ -2,7 +2,6 @@ package org.kruemelopment.springball
 
 import android.app.Activity
 import android.app.Dialog
-import android.content.DialogInterface
 import android.content.Intent
 import android.content.res.Resources
 import android.graphics.Bitmap
@@ -18,6 +17,7 @@ import android.media.MediaPlayer
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.view.KeyEvent
 import android.view.View
 import android.view.WindowInsets
@@ -146,7 +146,7 @@ class Game : Activity(), View.OnClickListener {
         pointsproClick = (faktor1 + faktor2 + faktor3) / 3
         newGame()
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-            window.decorView.setOnApplyWindowInsetsListener { v: View?, insets: WindowInsets ->
+            window.decorView.setOnApplyWindowInsetsListener { _: View?, insets: WindowInsets ->
                 if (insets.displayCutout != null) {
                     val a = insets.displayCutout!!.boundingRects[0].height()
                     if (a != 0) {
@@ -196,7 +196,7 @@ class Game : Activity(), View.OnClickListener {
         handler.postDelayed(gameLoopRunnable, 10)
     }
 
-    private val handler = Handler()
+    private val handler = Handler(Looper.getMainLooper())
     private val countdownRunnable: Runnable = object : Runnable {
         override fun run() {
             countDownTime -= 1
@@ -216,7 +216,7 @@ class Game : Activity(), View.OnClickListener {
             handler.removeCallbacks(gameEndCheckRunnable)
             handler.removeCallbacks(countdownRunnable)
             ball!!.setOnClickListener(null)
-            Handler().postDelayed({
+            Handler(Looper.getMainLooper()).postDelayed({
                 val dialog = Dialog(this@Game, R.style.AppDialog)
                 dialog.setContentView(R.layout.dialog)
                 val reach = dialog.findViewById<TextView>(R.id.texthg)
@@ -233,16 +233,14 @@ class Game : Activity(), View.OnClickListener {
                 sh.setOnClickListener {
                     val mainView =
                         this@Game.window.decorView.findViewById<View>(android.R.id.content)
-                    mainView.isDrawingCacheEnabled = true
-                    val bitmap = mainView.drawingCache
+                    val bitmap = getBitmapFromView(mainView)
                     if (dialog.window == null) return@setOnClickListener
                     val dialo = dialog.window!!.decorView.rootView
                     val loc = IntArray(2)
                     mainView.getLocationOnScreen(loc)
                     val loc2 = IntArray(2)
                     dialo.getLocationOnScreen(loc2)
-                    dialo.isDrawingCacheEnabled = true
-                    val bitmap1 = dialo.drawingCache
+                    val bitmap1 =getBitmapFromView(dialo)
                     val canvas = Canvas(bitmap)
                     canvas.drawBitmap(
                         bitmap1,
@@ -274,7 +272,7 @@ class Game : Activity(), View.OnClickListener {
                     sharingintent.putExtra(Intent.EXTRA_STREAM, uri)
                     startActivity(Intent.createChooser(sharingintent, getString(R.string.ah)))
                 }
-                go.setOnClickListener { view: View? ->
+                go.setOnClickListener {
                     dialog.dismiss()
                     newGame()
                     handler.post(gameLoopRunnable)
@@ -284,11 +282,11 @@ class Game : Activity(), View.OnClickListener {
                         bgMusicPlayer!!.start()
                     }
                 }
-                menue.setOnClickListener { view: View? ->
+                menue.setOnClickListener {
                     dialog.dismiss()
                     finish()
                 }
-                dialog.setOnCancelListener { dialogInterface: DialogInterface? ->
+                dialog.setOnCancelListener {
                     dialog.dismiss()
                     finish()
                 }
@@ -345,7 +343,7 @@ class Game : Activity(), View.OnClickListener {
             e.apply()
         }
         val returnIntent = Intent()
-        returnIntent.putExtra("highscore", Math.max(highscore, oldhighscore))
+        returnIntent.putExtra("highscore", highscore.coerceAtLeast(oldhighscore))
         returnIntent.putExtra("coins", currentCoins)
         setResult(RESULT_OK, returnIntent)
         if (googlePlayGamesHandler != null) {
@@ -436,9 +434,7 @@ class Game : Activity(), View.OnClickListener {
 
     private fun loadAndSetBackground(menue: RelativeLayout, width: Int, height: Int) {
         val hgs = getSharedPreferences("bh", 0)
-        val backgroundImage = hgs.getInt("Hintergrund", 0)
-        val rsource: Int
-        rsource = when (backgroundImage) {
+        val rsource: Int = when (hgs.getInt("Hintergrund", 0)) {
             2 -> R.drawable.hg3
             3 -> R.drawable.hg5
             4 -> R.drawable.hg2
@@ -453,7 +449,7 @@ class Game : Activity(), View.OnClickListener {
         menue.invalidate()
     }
 
-    fun getResizedBitmap(bm: Bitmap, newWidth: Int, newHeight: Int): Bitmap {
+    private fun getResizedBitmap(bm: Bitmap, newWidth: Int, newHeight: Int): Bitmap {
         val width = bm.width
         val height = bm.height
         val scaleWidth = newWidth.toFloat() / width
@@ -473,11 +469,19 @@ class Game : Activity(), View.OnClickListener {
             }
             touchPlayer!!.start()
         }
-        points = points + pointsproClick
+        points += pointsproClick
         yCoordinate = ball!!.y.toInt()
         ball!!.y = yCoordinate - moveUpwards
         ball!!.x = (random!!.nextInt(screenWidth - 200) + 100).toFloat()
         highScoreTextView!!.text = String.format(Locale.GERMANY, "%.2f", points)
+    }
+    private fun getBitmapFromView(view: View): Bitmap {
+        val bitmap = Bitmap.createBitmap(
+            view.width, view.height, Bitmap.Config.ARGB_8888
+        )
+        val canvas = Canvas(bitmap)
+        view.draw(canvas)
+        return bitmap
     }
 
     companion object {
