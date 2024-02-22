@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="game"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/launcher_icon"
+        android:roundIcon="@mipmap/launcher_icon_round"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="org.kruemelopment.springball.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="sensorPortrait"
+            android:supportsPictureInPicture="false"
+            android:exported="true">
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".Shop"
+            android:screenOrientation="sensorPortrait"
+            android:supportsPictureInPicture="false"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Game"
+            android:screenOrientation="sensorPortrait"
+            android:supportsPictureInPicture="false"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="sensorPortrait"
+            android:supportsPictureInPicture="false"
+            tools:ignore="LockedOrientationActivity" />
+    </application>
+
+</manifest>

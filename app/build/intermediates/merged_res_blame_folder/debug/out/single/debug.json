@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_fusball.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/fusball.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_auswahl_leaderboard.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/auswahl_leaderboard.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_bild2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/bild2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_prew.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/prew.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_playgr.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/playgr.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_buttonred.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/buttonred.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_activity_settings.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_fussball4.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/fussball4.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_lock2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/lock2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_hg1.mp3.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/hg1.mp3"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_schloss.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/schloss.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_noprogress.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/noprogress.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_progressdrawable.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/progressdrawable.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_ball3.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/ball3.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_customthumb.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/customthumb.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xxhdpi_launcher_icon_round.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xxhdpi/launcher_icon_round.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_zzz.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/zzz.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_launcher_icon_foreground.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/launcher_icon_foreground.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_volleyball.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/volleyball.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_lock1.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/lock1.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_buttongreen.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/buttongreen.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_schluss.ogg.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/schluss.ogg"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_webdialog.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/webdialog.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_toast.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/toast.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/anim_wackel.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/anim/wackel.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_dialog.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/dialog.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xhdpi_launcher_icon_round.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xhdpi/launcher_icon_round.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_auswahl_leaderboard.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/auswahl_leaderboard.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-mdpi_launcher_icon_round.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-mdpi/launcher_icon_round.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_playr.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/playr.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_shopneu.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/shopneu.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_hg4.mp3.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/hg4.mp3"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_pre.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/pre.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_ball1.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/ball1.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_progress.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/progress.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_nge.ogg.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/nge.ogg"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_schloss2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/schloss2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_pre2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/pre2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_ball2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/ball2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_activity_menue.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/activity_menue.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hg5.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hg5.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hgj.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hgj.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_activity_menue.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/activity_menue.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_aussss.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/aussss.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/xml_provider_paths.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-anydpi-v26_launcher_icon_round.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-anydpi-v26/launcher_icon_round.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_zz.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/zz.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_basketball.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/basketball.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_e3.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/e3.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_activity_settings.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/activity_settings.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/anim_rotate.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/anim/rotate.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_shop.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/shop.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hg2.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hg2.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_hg3.mp3.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/hg3.mp3"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_annnnn.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/annnnn.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_webdialog.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/webdialog.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout_activity_game.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout/activity_game.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xxxhdpi_launcher_icon_round.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xxxhdpi/launcher_icon_round.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-anydpi-v26_launcher_icon.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-anydpi-v26/launcher_icon.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_ende.ogg.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/ende.ogg"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/xml-v25_shortcuts.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/xml-v25/shortcuts.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-hdpi_launcher_icon_round.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-hdpi/launcher_icon_round.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hg3.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hg3.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/raw_hg2.mp3.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/raw/hg2.mp3"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_weiter36.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/weiter36.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hggame.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hggame.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_dialog.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/dialog.xml"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_bild1.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/bild1.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/drawable_hg4.webp.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/drawable/hg4.webp"
+    },
+    {
+        "merged": "org.kruemelopment.springball.app-merged_res-34:/layout-sw600dp_activity_game.xml.flat",
+        "source": "org.kruemelopment.springball.app-main-36:/layout-sw600dp/activity_game.xml"
+    }
+]

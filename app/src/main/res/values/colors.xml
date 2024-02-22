@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48bfe3</color>
+    <color name="colorPrimaryDark">#48bfe3</color>
+    <color name="colorAccent">#48bfe3</color>
+
+
+    <color name="hellblau">#48bfe3</color>
+
+    <color name="gelb">#fff800</color>
+
+    <color name="weiss">#ffffff</color>
+
+    <color name="blaubutton">#0012FF</color>
+
+    <color name="launcher_icon_background">#03bffd</color>
+    <color name="launcher_icon">#ffffff</color>
+</resources>

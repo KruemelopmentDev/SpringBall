@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorBackgroundFloating"
+    android:gravity="center"
+    android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/hellblau"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/highscore"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView23"
+            android:layout_centerHorizontal="true"
+            android:background="@color/hellblau"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="@string/coins"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+</RelativeLayout>

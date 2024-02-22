@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spring Ball</string>
+    <string name="baelleshop">Bälle-Laden</string>
+    <string name="hgshop">Hintergründe-Laden</string>
+    <string name="optionen">Optionen</string>
+    <string name="starte">Start</string>
+    <string name="toast">Ausgewählt</string>
+    <string name="hilfe">Kontakt</string>
+    <string name="musik">Musik</string>
+    <string name="sound">Geräusche</string>
+    <string name="lee">        </string>
+    <string name="kaufen">Sammel 50 Münzen um diesen Ball zu kaufen!</string>
+    <string name="gekauft">Gekauft</string>
+    <string name="datens">Datenschutzerklärung</string>
+    <string name="nutzungs">Nutzungsbedingungen</string>
+    <string name="hg">Sammel 50 Münzen um diesen Hintergrund zu kaufen!</string>
+    <string name="lead">Bestenlisten</string>
+    <string name="ach">Erfolge</string>
+    <string name="abb">Menü</string>
+    <string name="teil">Teilen</string>
+    <string name="weie">Weiterspielen</string>
+    <string name="sco">Du erreichtest einen Score von\u0020</string>
+    <string name="ah">Teilen mit…</string>
+    <string name="shortcut1_1">Spiel starten</string>
+    <string name="shortcut1_2">Spiel starten</string>
+    <string name="shortcut1_3">Deaktiviert</string>
+
+    <string name="connected">Verbunden</string>
+    <string name="notconnected">Verbindung\ngetrennt</string>
+    <string name="connectionfailed">Anmeldung fehlgeschlagen</string>
+
+    <string name="highscore">Höchstpunktzahl</string>
+    <string name="coins">Münzen</string>
+    <string name="disagree">Ablehnen</string>
+    <string name="agree">Zustimmen</string>
+    <string name="ballheight">Ballhöhe</string>
+    <string name="time">Zeit</string>
+    <string name="fallgeschwindigkeit">Fallgeschwindigkeit</string>
+    <string name="agreetext"><![CDATA[Mit der Nutzung dieser App aktzeptiere ich die <a href=\"https://www.kruemelopment-dev.de/datenschutzerklaerung\">Datenschutzerklärung</a> und die <a href=\"https://www.kruemelopment-dev.de/nutzungsbedingungen\">Nutzungsbedingungen</a> von Krümelopment Dev]]></string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="startgame"
+        android:enabled="true"
+        android:icon="@mipmap/launcher_icon_round"
+        android:shortcutShortLabel="@string/shortcut1_1"
+        android:shortcutLongLabel="@string/shortcut1_2"
+        android:shortcutDisabledMessage="@string/shortcut1_3">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="startGameDirectly"
+            android:targetPackage="org.kruemelopment.springball"
+            android:targetClass="org.kruemelopment.springball.Menu" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+</shortcuts>
